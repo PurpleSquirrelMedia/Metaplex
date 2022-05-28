@@ -82,10 +82,10 @@ visit [Cloud Run](https://console.cloud.google.com/run)
 2. setup your service name, like `my nft store`
 3. choose your uploaded image
 4. open advanced settings
-    1. switch to Variables and keys
-    2. add Environment Variables
-        1. name: `NODE_ENV`, value: `production`
-5. set up & finish your create.
+5. switch to Variables and keys
+6. add Environment Variables
+7. name: `NODE_ENV`, value: `production`
+8. set up & finish your create.
 
 ### setup your domain
 
