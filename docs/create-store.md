@@ -20,7 +20,7 @@ wallet public address. To do this, you can create a `.env` file in `packages/web
 `REACT_APP_STORE_OWNER_ADDRESS_ADDRESS` to be your wallet public address in there.
 
 ```
-REACT_APP_STORE_OWNER_ADDRESS_ADDRESS=YOUR_PUBLIC_WALLET_ADDRESS
+REACT_APP_STORE_OWNER_ADDRESS_ADDRESS=AXQx3ezaEzYiXQBoYHZ3JL55L6M5s6LTbya6S6rvNQMA
 ```
 
 ### Create Your Store
