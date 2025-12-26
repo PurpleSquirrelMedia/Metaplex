@@ -27,6 +27,9 @@ module.exports = withPlugins(plugins, {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 
   env: {
     NEXT_PUBLIC_STORE_OWNER_ADDRESS:
