@@ -2,7 +2,7 @@ import log from 'loglevel';
 import { basename } from 'path';
 import { createReadStream } from 'fs';
 import { Readable } from 'form-data';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { S3Client, PutObjectCommand, ObjectCannedACL } from '@aws-sdk/client-s3';
 import path from 'path';
 import { getType } from 'mime';
 import { setImageUrlManifest } from './file-uri';
@@ -18,7 +18,7 @@ async function uploadFile(
     Bucket: awsS3Bucket,
     Key: filename,
     Body: body,
-    ACL: 'public-read',
+    ACL: 'public-read' as ObjectCannedACL,
     ContentType: contentType,
   };
 
