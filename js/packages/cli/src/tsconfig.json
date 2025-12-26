@@ -15,6 +15,7 @@
     "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true,
     "resolveJsonModule": true,
+    "skipLibCheck": true,
     "lib": ["dom", "es2019"],
     "types": ["jest", "node", "webgl2"]
   },
